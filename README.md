@@ -5,4 +5,4 @@
 ## Usage
 
 1. Setup container according to [linuxserver/bazarr](https://hub.docker.com/r/linuxserver/bazarr) - changing image to `sekkr1/bazarr-subsync`
-2. Put `/usr/bin/subsync -i "{{subtitles}}" -o "{{subtitles}}" "{{episode}}" >>/tmp/subsync_log 2>&1` in Bazarr post-processing command setting
+2. Put `/usr/bin/ffsubsync -i "{{subtitles}}" -o "{{subtitles}}" "{{episode}}" >>/tmp/subsync_log 2>&1` in Bazarr post-processing command setting
